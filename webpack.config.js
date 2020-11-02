@@ -26,6 +26,13 @@ module.exports = (env, argv) => ({
     path: path.join(__dirname, "build"),
     filename: "[name].[hash:4].js"
   },
+	externals: [
+		"dns",
+		"fs",
+		"net",
+		"tls",
+		"child_process",
+	],
   devtool: argv.mode === 'production' ? false : 'eval-source-maps',
   plugins: [
     ...htmlPlugins

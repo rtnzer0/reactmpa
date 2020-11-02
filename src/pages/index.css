@@ -1,0 +1,23 @@
+.content{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    padding: 0vh;
+}
+
+.MuiPaper-root.content-paper.MuiPaper-elevation10.MuiPaper-rounded {
+    max-width: 95%;
+    align-content: center;
+    position: static;
+    max-height: 300vh;
+    min-height: 100vh;
+    margin-left: 3vh;
+}
+
+p#booty {
+    background-color: transparent;
+    color: white;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+}

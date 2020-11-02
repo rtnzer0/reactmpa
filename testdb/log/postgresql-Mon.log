@@ -1,0 +1,117 @@
+2020-11-02 13:03:19.464 EST [89382] LOG:  database system was shut down at 2020-11-02 13:03:00 EST
+2020-11-02 13:03:19.514 EST [89380] LOG:  database system is ready to accept connections
+2020-11-02 13:03:25.789 EST [89394] FATAL:  database "paraxic" does not exist
+2020-11-02 13:04:38.425 EST [89424] FATAL:  role "postgresql" does not exist
+2020-11-02 13:04:42.153 EST [89430] FATAL:  role "postgres" does not exist
+2020-11-02 13:04:46.916 EST [89436] FATAL:  role "admin" does not exist
+2020-11-02 13:04:50.015 EST [89444] FATAL:  database "paraxic" does not exist
+2020-11-02 13:04:58.036 EST [89450] FATAL:  database "paraxic" does not exist
+2020-11-02 13:09:04.733 EST [89517] ERROR:  syntax error at or near "user" at character 27
+2020-11-02 13:09:04.733 EST [89517] STATEMENT:  create schema test
+	create user paraxic
+	remove user paraxic
+	create user paraxic password test
+	grant all on schema test to paraxic
+	grant all on all tables in schema test to paraxic
+	create table test
+	insert into test values ('it works');
+2020-11-02 13:09:18.821 EST [89517] ERROR:  syntax error at or near "list" at character 1
+2020-11-02 13:09:18.821 EST [89517] STATEMENT:  list table
+	create schema test
+	create user paraxic
+	remove user paraxic
+	create user paraxic password test
+	grant all on schema test to paraxic
+	grant all on all tables in schema test to paraxic
+	create table test
+	insert into test values ('it works');
+2020-11-02 13:09:31.901 EST [89517] ERROR:  syntax error at or near "s" at character 1
+2020-11-02 13:09:31.901 EST [89517] STATEMENT:  s
+	list
+	;
+2020-11-02 13:09:46.426 EST [89573] ERROR:  syntax error at or near "list" at character 1
+2020-11-02 13:09:46.426 EST [89573] STATEMENT:  list tables;
+2020-11-02 13:09:49.354 EST [89573] ERROR:  syntax error at or near "list" at character 1
+2020-11-02 13:09:49.354 EST [89573] STATEMENT:  list table;
+2020-11-02 13:09:53.112 EST [89573] ERROR:  syntax error at or near "list" at character 1
+2020-11-02 13:09:53.112 EST [89573] STATEMENT:  list test;
+2020-11-02 13:10:28.777 EST [89573] ERROR:  syntax error at or near "test" at character 11
+2020-11-02 13:10:28.777 EST [89573] STATEMENT:  show
+	show test
+	create table test;
+2020-11-02 13:12:03.172 EST [89573] ERROR:  syntax error at or near "create" at character 7
+2020-11-02 13:12:03.172 EST [89573] STATEMENT:  table
+	create table test
+	table
+	table test
+	select * from test
+	insert into test values ('it works')
+	select * from test
+	show
+	less
+	quit
+	;
+2020-11-02 13:12:55.569 EST [89573] ERROR:  syntax error at or near "insert" at character 24
+2020-11-02 13:12:55.569 EST [89573] STATEMENT:  create table test.test
+	insert into test.test values ('it works')
+	select * from test.est
+	select * from test.test
+	;
+2020-11-02 13:13:39.765 EST [89573] ERROR:  syntax error at or near "insert" at character 24
+2020-11-02 13:13:39.765 EST [89573] STATEMENT:  create table test.test
+	insert into test.test (coltest) values ('it works')
+	select * from test.test
+	;
+2020-11-02 13:13:50.928 EST [89573] ERROR:  syntax error at or near ";" at character 23
+2020-11-02 13:13:50.928 EST [89573] STATEMENT:  create table test.test;
+2020-11-02 13:14:21.388 EST [89573] ERROR:  schema "test" does not exist at character 14
+2020-11-02 13:14:21.388 EST [89573] STATEMENT:  create table test.test (coltest varchar(20));
+2020-11-02 13:15:22.043 EST [89573] ERROR:  syntax error at or near ";" at character 6
+2020-11-02 13:15:22.043 EST [89573] STATEMENT:  table;
+2020-11-02 13:15:26.200 EST [89573] ERROR:  syntax error at or near "list" at character 1
+2020-11-02 13:15:26.200 EST [89573] STATEMENT:  list table;
+2020-11-02 13:15:41.037 EST [89573] ERROR:  syntax error at or near "table" at character 6
+2020-11-02 13:15:41.037 EST [89573] STATEMENT:  show table;
+2020-11-02 13:15:46.811 EST [89573] ERROR:  SELECT * with no tables specified is not valid at character 8
+2020-11-02 13:15:46.811 EST [89573] STATEMENT:  select * 
+	;
+2020-11-02 13:15:55.544 EST [89573] ERROR:  syntax error at or near ";" at character 8
+2020-11-02 13:15:55.544 EST [89573] STATEMENT:  explain;
+2020-11-02 13:16:19.169 EST [89573] ERROR:  syntax error at or near ";" at character 5
+2020-11-02 13:16:19.169 EST [89573] STATEMENT:  show;
+2020-11-02 13:22:45.991 EST [89573] ERROR:  syntax error at or near "create" at character 12
+2020-11-02 13:22:45.991 EST [89573] STATEMENT:  show
+	show 
+	create schema signin
+	;
+2020-11-02 13:24:01.691 EST [89573] ERROR:  syntax error at or near "(" at character 47
+2020-11-02 13:24:01.691 EST [89573] STATEMENT:  create table users.users (username, password) (varchar(100), varchar(100))
+	;
+2020-11-02 13:25:38.135 EST [89573] ERROR:  syntax error at or near "varchar" at character 45
+2020-11-02 13:25:38.135 EST [89573] STATEMENT:  create table uses.users (username,password) varchar(100)
+	;
+2020-11-02 13:26:55.007 EST [89573] ERROR:  schema "uses" does not exist at character 14
+2020-11-02 13:26:55.007 EST [89573] STATEMENT:  create table uses.users (username varchar(30), password varchar(40));
+2020-11-02 13:28:32.260 EST [89573] ERROR:  syntax error at or near "username" at character 25
+2020-11-02 13:28:32.260 EST [89573] STATEMENT:  insert into users.users username="testuser" password="testpassword"
+	;
+2020-11-02 13:29:09.214 EST [89573] ERROR:  syntax error at or near "where" at character 25
+2020-11-02 13:29:09.214 EST [89573] STATEMENT:  insert into users.users where username="testuser" and password="testpassword"
+	;
+2020-11-02 13:37:59.668 EST [89573] ERROR:  column "testuser" does not exist at character 52
+2020-11-02 13:37:59.668 EST [89573] STATEMENT:  insert into users.users(username,password) values ("testuser","testpassword")
+	;
+2020-11-02 13:39:16.513 EST [89573] ERROR:  column "testuser" does not exist at character 52
+2020-11-02 13:39:16.513 EST [89573] STATEMENT:  insert into users.users(username,password) values ("testuser","testpassword");
+2020-11-02 13:39:58.668 EST [89573] ERROR:  syntax error at or near ")" at character 1
+2020-11-02 13:39:58.668 EST [89573] STATEMENT:  );
+2020-11-02 13:40:17.761 EST [89573] ERROR:  column "testuser" of relation "users" does not exist at character 25
+2020-11-02 13:40:17.761 EST [89573] STATEMENT:  insert into users.users("testuser","testpassword") values(username,password);
+2020-11-02 13:40:43.108 EST [89573] ERROR:  column "testuser" does not exist at character 52
+2020-11-02 13:40:43.108 EST [89573] STATEMENT:  insert into users.users(username,password) values ("testuser","testpassword");
+2020-11-02 13:52:05.270 EST [89573] ERROR:  syntax error at or near "select" at character 14
+2020-11-02 13:52:05.270 EST [89573] STATEMENT:  select NOW()
+	select username,password where username='testuser'
+	select username where username='testuser';
+2020-11-02 13:52:18.523 EST [89573] ERROR:  column "username" does not exist at character 8
+2020-11-02 13:52:18.523 EST [89573] STATEMENT:  select username where username='testuser';
