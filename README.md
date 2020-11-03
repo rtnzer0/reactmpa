@@ -1,5 +1,8 @@
 # Multi Page App with React
 
+A mostly copied version of przemek-nowicki's multi-page-app-with-react, some changes added Material UI(react) and postgres is there as well but not implemented.
+this is not meant to be a starting/jumping off point but just a learning repo, all due credit to Przemek Nowicki for creating this jumping off point please go check it out from his [Repo](https://github.com/przemek-nowicki/multi-page-app-with-react)
+
 A lightweight, flexible Webpack setup with React for multi page application development. <br />
 
 You should consider this setup when you want to use React for some sections of your page(s), but you don't want to make it Single Page Application (SPA) with only a `<div id="app">` in the body tag.
