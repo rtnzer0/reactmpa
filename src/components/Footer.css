@@ -1,0 +1,27 @@
+[class="footer-box"]{
+background: #0a002b;
+    margin:0;
+    padding:0;
+    text-align: center;
+    height: 26vh;
+    top: 30vh;
+    bottom: 0;
+    position: relative;
+}
+
+[class="footer-content"]
+{
+    top: 10vh;
+    bottom: 0px;
+    text-align: center;
+    position: relative;
+}
+a[class="link"]{
+    color: grey;
+    text-decoration: none;
+}
+a[class="link"]:visited {
+    color: grey;
+    text-decoration: none;
+    
+}

@@ -112,4 +112,8 @@ module.exports = (env, argv) => ({
         }
       }
     }
+	target: 'node',
+node :{
+	fs: "empty"
+},
 });

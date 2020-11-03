@@ -1,18 +1,12 @@
-.content{
+[class="content"]{
     background-color: white;
     text-align: center;
-    position: relative;
+    position: static;
+    margin-top: 8vh;
     padding: 0vh;
+    top: 8vh;
 }
 
-.MuiPaper-root.content-paper.MuiPaper-elevation10.MuiPaper-rounded {
-    max-width: 95%;
-    align-content: center;
-    position: static;
-    max-height: 300vh;
-    min-height: 100vh;
-    margin-left: 3vh;
-}
 
 p#booty {
     background-color: transparent;
@@ -20,4 +14,14 @@ p#booty {
     margin: 30px;
     text-align: center;
     position: relative;
+}
+
+body{
+    background: #101010;
+    margin:0;
+    padding:0;
+}
+
+.MuiPaper-root.content-paper.MuiPaper-elevation10.MuiPaper-rounded {
+    min-height: 20vh;
 }

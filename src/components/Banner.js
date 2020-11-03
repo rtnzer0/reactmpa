@@ -18,8 +18,8 @@ function Banner() {
     }
     return(
         <div className="banner">
-            <img className="banner" src="src/components/joanna-kosinka-unsplash-banner.jpg"/>
-            <p className="banner" id="site-name">Site name </p>
+            <img className="banner" src="src/components/22589.jpg"/>
+            <p className="banner" id="site-name">React Test Site</p>
             <div className="banner-appbar">
         <AppBar position="static">
             <Toolbar>
@@ -42,7 +42,7 @@ function Banner() {
                 <MenuItem><a href="./contact.html">Contact</a></MenuItem>
                
                 </Menu>
-                <Button variant="contained" href="../pages/signin.html">
+                <Button variant="contained" href="./signin.html">
                     Sign in
                 </Button>
 
